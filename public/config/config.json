@@ -1,18 +1,18 @@
 {
-  "CONTRACT_ADDRESS": "0x0b18b900F7375AABDa00EEaC988116C33fb05BD2",
-  "SCAN_LINK": "https://polygonscan.com/token/0x0b18b900F7375AABDa00EEaC988116C33fb05BD2",
+  "CONTRACT_ADDRESS": "0x495f947276749ce646f68ac8c248420045cb7b5e",
+  "SCAN_LINK": "https://etherscan.io/address/0x495f947276749ce646f68ac8c248420045cb7b5e",
   "NETWORK": {
-    "NAME": "Polygon",
-    "SYMBOL": "Matic",
-    "ID": 137
+    "NAME": "Ethereum",
+    "SYMBOL": "ETH",
+    "ID": 1
   },
-  "NFT_NAME": "The Stripes NFT",
-  "SYMBOL": "TSNFT",
-  "MAX_SUPPLY": 992,
-  "WEI_COST": 4000000000000000000,
-  "DISPLAY_COST": 4,
+  "NFT_NAME": "Guild Fighters",
+  "SYMBOL": "GF",
+  "MAX_SUPPLY": 5000,
+  "WEI_COST": 20000000000000000,
+  "DISPLAY_COST": 0.02,
   "GAS_LIMIT": 285000,
-  "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/the-stripes-nft",
-  "SHOW_BACKGROUND": true
+  "MARKETPLACE": "Opensea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/guildfighters",
+  "SHOW_BACKGROUND": false
 }
