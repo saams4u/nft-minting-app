@@ -310,6 +310,15 @@ function App() {
               >
                 Rarible
               </StyledButton><br></br>
+              <StyledButton
+                style={{
+                  backgroundImage: "/config/images/twitter.png"
+                }}
+                onClick={(e) => {
+                  window.open("https://twitter.com/saams4u", "_blank");
+                }}
+              >
+              </StyledButton><br></br>
             </span>
             <s.SpacerSmall />
             {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
