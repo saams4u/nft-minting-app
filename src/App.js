@@ -319,6 +319,7 @@ function App() {
                 Share on Twitter:
               </s.TextTitle>
               <TwitterShareButton 
+                  style={{ display: "flex", justifyContent: 'flex-end'}}
                   url="https://www.guildfighters.com" 
                   title="Check out the Guild Fighters NFT collection!"
                   className="share-button">
@@ -330,6 +331,7 @@ function App() {
                 Share on Facebook:
               </s.TextTitle>
               <FacebookShareButton 
+                  style={{ display: "flex", justifyContent: 'flex-end'}}
                   url="https://www.guildfighters.com" 
                   title="Check out the Guild Fighters NFT collection!"
                   className="share-button">
@@ -337,6 +339,18 @@ function App() {
                     size={64}
                     round={true} />
               </FacebookShareButton>
+              <s.TextTitle style={{ fontSize: 12 }}>
+                Share on LinkedIn:
+              </s.TextTitle>
+              <LinkedinShareButton 
+                  style={{ display: "flex", justifyContent: 'flex-end'}}
+                  url="https://www.guildfighters.com" 
+                  title="Check out the Guild Fighters NFT collection!"
+                  className="share-button">
+                  <LinkedinIcon
+                    size={64}
+                    round={true} />
+              </LinkedinShareButton>
             </span>
             <s.SpacerSmall />
             {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
