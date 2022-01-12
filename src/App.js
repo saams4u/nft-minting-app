@@ -312,13 +312,14 @@ function App() {
                 }}
               >
                 Rarible
-              </StyledButton><br></br>
+              </StyledButton><br></br><br></br><br></br>
+              <s.TextTitle>Share on Twitter:</s.TextTitle>
               <TwitterShareButton 
-                  url="https://www.guildfighters.com" 
-                  title="Guild Fighters"
+                  url="https://www.guildfighters.com/" 
+                  title="Check out the Guild Fighters NFT collection!"
                   className="Demo__some-network__share-button">
                   <TwitterIcon
-                    size={32}
+                    size={64}
                     round />
               </TwitterShareButton>
             </span>
