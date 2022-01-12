@@ -315,11 +315,11 @@ function App() {
                 }}
               >
                 Rarible
-              </StyledButton><br></br><br></br><br></br>
+              </StyledButton><br></br><br></br><br></br><br></br>
               <s.TextTitle style={{ fontSize: 12 }}>
                 Share on Social Media:
               </s.TextTitle>
-              <br></br><br></br>
+              <br></br>
               {/* <s.TextTitle style={{ fontSize: 12 }}>
                 Share on Twitter:
               </s.TextTitle> */}
