@@ -276,8 +276,8 @@ function App() {
                   margin: "5px",
                   backgroundColor: "green",
                   height: 50,
-                  width: 250,
-                  fontSize: 20
+                  width: 150,
+                  fontSize: 18
                 }}
               >
                 Product Roadmap
@@ -288,7 +288,7 @@ function App() {
                   backgroundColor: "blue",
                   height: 50,
                   width: 150,
-                  fontSize: 20
+                  fontSize: 18
                 }}
                 onClick={(e) => {
                   window.open(CONFIG.MARKETPLACE_LINK, "_blank");
@@ -302,7 +302,7 @@ function App() {
                   backgroundColor: "black",
                   height: 50,
                   width: 150,
-                  fontSize: 20
+                  fontSize: 18
                 }}
                 onClick={(e) => {
                   window.open("https://rarible.com/saams4u", "_blank");
