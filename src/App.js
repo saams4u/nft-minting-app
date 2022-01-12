@@ -321,7 +321,7 @@ function App() {
               <TwitterShareButton 
                   url="https://www.guildfighters.com" 
                   title="Check out the Guild Fighters NFT collection!"
-                  className="Demo__some-network__share-button">
+                  className="share-button">
                   <TwitterIcon
                     size={64}
                     round={true} />
@@ -332,7 +332,7 @@ function App() {
               <FacebookShareButton 
                   url="https://www.guildfighters.com" 
                   title="Check out the Guild Fighters NFT collection!"
-                  className="Demo__some-network__share-button">
+                  className="share-button">
                   <FacebookIcon
                     size={64}
                     round={true} />
