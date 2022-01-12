@@ -316,9 +316,9 @@ function App() {
               >
                 Rarible
               </StyledButton><br></br><br></br><br></br>
-              <s.TextTitle style={{ fontSize: 12 }}>
+              {/* <s.TextTitle style={{ fontSize: 12 }}>
                 Share on Twitter:
-              </s.TextTitle>
+              </s.TextTitle> */}
               <TwitterShareButton 
                   url="https://www.guildfighters.com" 
                   title="Check out the Guild Fighters NFT collection!"
@@ -327,9 +327,9 @@ function App() {
                     size={64}
                     round={true} />
               </TwitterShareButton>
-              <s.TextTitle style={{ fontSize: 12 }}>
+              {/* <s.TextTitle style={{ fontSize: 12 }}>
                 Share on Facebook:
-              </s.TextTitle>
+              </s.TextTitle> */}
               <FacebookShareButton 
                   url="https://www.guildfighters.com" 
                   title="Check out the Guild Fighters NFT collection!"
@@ -338,9 +338,9 @@ function App() {
                     size={64}
                     round={true} />
               </FacebookShareButton>
-              <s.TextTitle style={{ fontSize: 12 }}>
+              {/* <s.TextTitle style={{ fontSize: 12 }}>
                 Share on LinkedIn:
-              </s.TextTitle>
+              </s.TextTitle> */}
               <LinkedinShareButton 
                   url="https://www.guildfighters.com" 
                   title="Check out the Guild Fighters NFT collection!"
@@ -349,9 +349,9 @@ function App() {
                     size={64}
                     round={true} />
               </LinkedinShareButton>
-              <s.TextTitle style={{ fontSize: 12 }}>
+              {/* <s.TextTitle style={{ fontSize: 12 }}>
                 Share on Reddit:
-              </s.TextTitle>
+              </s.TextTitle> */}
               <RedditShareButton 
                   url="https://www.guildfighters.com" 
                   title="Check out the Guild Fighters NFT collection!"
