@@ -276,7 +276,7 @@ function App() {
                   margin: "5px",
                   backgroundColor: "green",
                   height: 50,
-                  width: 300,
+                  width: 250,
                   fontSize: 20
                 }}
               >
