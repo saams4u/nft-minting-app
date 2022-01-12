@@ -330,7 +330,7 @@ function App() {
                   <TwitterIcon
                     size={64}
                     round={true} />
-              </TwitterShareButton>&nbsp;&nbsp;
+              </TwitterShareButton>&nbsp;&nbsp;&nbsp;&nbsp;
               {/* <s.TextTitle style={{ fontSize: 12 }}>
                 Share on Facebook:
               </s.TextTitle> */}
@@ -341,7 +341,7 @@ function App() {
                   <FacebookIcon
                     size={64}
                     round={true} />
-              </FacebookShareButton>&nbsp;&nbsp;
+              </FacebookShareButton>&nbsp;&nbsp;&nbsp;&nbsp;
               {/* <s.TextTitle style={{ fontSize: 12 }}>
                 Share on LinkedIn:
               </s.TextTitle> */}
@@ -352,7 +352,7 @@ function App() {
                   <LinkedinIcon
                     size={64}
                     round={true} />
-              </LinkedinShareButton>&nbsp;&nbsp;
+              </LinkedinShareButton>&nbsp;&nbsp;&nbsp;&nbsp;
               {/* <s.TextTitle style={{ fontSize: 12 }}>
                 Share on Reddit:
               </s.TextTitle> */}
