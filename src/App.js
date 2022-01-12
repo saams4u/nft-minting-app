@@ -280,7 +280,7 @@ function App() {
                   fontSize: 18
                 }}
               >
-                Product Roadmap
+                Roadmap
               </StyledButton><br></br><br></br>
               <StyledButton
                 style={{
