@@ -310,7 +310,11 @@ function App() {
               >
                 Rarible
               </StyledButton><br></br>
-              <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+              <TwitterShareButton url="https://www.guildfighters.com" title="Guild Fighters">
+                  <button className="btn btn-circle">
+                      <i className="fab fa-twitter"> </i>
+                  </button>
+              </TwitterShareButton>
             </span>
             <s.SpacerSmall />
             {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
