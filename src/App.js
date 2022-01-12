@@ -310,15 +310,10 @@ function App() {
               >
                 Rarible
               </StyledButton><br></br>
-              <StyledButton
-                style={{
-                  backgroundImage: "/config/images/twitter.png"
-                }}
-                onClick={(e) => {
-                  window.open("https://twitter.com/saams4u", "_blank");
-                }}
-              >
-              </StyledButton><br></br>
+              <a href="https://twitter.com/saams4u?ref_src=twsrc%5Etfw" 
+              class="twitter-follow-button" data-show-count="false">Follow @saams4u</a>
+                <script async src="https://platform.twitter.com/widgets.js" 
+                charset="utf-8"></script>
             </span>
             <s.SpacerSmall />
             {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
