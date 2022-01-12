@@ -67,7 +67,7 @@ export const ResponsiveWrapper = styled.div`
 `;
 
 export const StyledLogo = styled.img`
-  width: 200px;
+  width: 500px;
   @media (min-width: 767px) {
     width: 500px;
   }
@@ -281,7 +281,7 @@ function App() {
                 }}
               >
                 Roadmap
-              </StyledButton><br></br><br></br>
+              </StyledButton>
               <StyledButton
                 style={{
                   margin: "5px",
