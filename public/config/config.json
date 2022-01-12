@@ -8,11 +8,12 @@
   },
   "NFT_NAME": "Guild Fighters",
   "SYMBOL": "GF",
-  "MAX_SUPPLY": 5000,
+  "CURRENT_SUPPLY": 30,
+  "MAX_SUPPLY": 10000,
   "WEI_COST": 20000000000000000,
   "DISPLAY_COST": 0.02,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opensea",
   "MARKETPLACE_LINK": "https://opensea.io/collection/guildfighters",
-  "SHOW_BACKGROUND": false
+  "SHOW_BACKGROUND": true
 }

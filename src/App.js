@@ -69,7 +69,7 @@ export const ResponsiveWrapper = styled.div`
 export const StyledLogo = styled.img`
   width: 200px;
   @media (min-width: 767px) {
-    width: 300px;
+    width: 500px;
   }
   transition: width 0.5s;
   transition: height 0.5s;
@@ -200,7 +200,7 @@ function App() {
         flex={1}
         ai={"center"}
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
-        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
+        image={CONFIG.SHOW_BACKGROUND ? "/config/images/gf-featured.jpg" : null}
       >
         <a href={CONFIG.MARKETPLACE_LINK}>
           <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
@@ -223,6 +223,26 @@ function App() {
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
             }}
           >
+            <s.TextDescription
+              style={{
+                textAlign: "center",
+                color: "var(--primary-text)",
+                fontSize: 30,
+                fontWeight: "bold"  
+              }}
+            >
+              Welcome to Guild Fighters!
+            </s.TextDescription><br></br>
+            <s.TextDescription
+              style={{
+                textAlign: "center",
+                fontSize: 18,
+                color: "var(--accent-text)",
+              }}      
+            >
+              <p>This is a medieval fantasy-based NFT collection that I developed in my single-unit apartment in Columbia, MD. I put together the entire base and trait layers, generated the unique digital collectibles using a Python script, and continue to experiment with new ideas to automate the process.</p><br></br>
+              <p>Feel free to check the product roadmap and to explore this collection on Opensea! The mission is to produce up to 10,000 listed items for sale based on property or attribute rarity (weapon, guild, etc.). On Rarible, the items are listed for sale in an unlimited auction format and are open for bids.</p>
+            </s.TextDescription><br></br><br></br>
             <s.TextTitle
               style={{
                 textAlign: "center",
@@ -231,7 +251,7 @@ function App() {
                 color: "var(--accent-text)",
               }}
             >
-              {data.totalSupply} / {CONFIG.MAX_SUPPLY}
+              {/* {CONFIG.CURRENT_SUPPLY} / {CONFIG.MAX_SUPPLY} */}
             </s.TextTitle>
             <s.TextDescription
               style={{
@@ -240,7 +260,7 @@ function App() {
               }}
             >
               <StyledLink target={"_blank"} href={CONFIG.SCAN_LINK}>
-                {truncate(CONFIG.CONTRACT_ADDRESS, 15)}
+                {/* {truncate(CONFIG.CONTRACT_ADDRESS, 15)} */}
               </StyledLink>
             </s.TextDescription>
             <span
@@ -254,13 +274,21 @@ function App() {
                 }}
                 style={{
                   margin: "5px",
+                  backgroundColor: "green",
+                  height: 50,
+                  width: 300,
+                  fontSize: 20
                 }}
               >
-                Roadmap
-              </StyledButton>
+                Product Roadmap
+              </StyledButton><br></br><br></br>
               <StyledButton
                 style={{
                   margin: "5px",
+                  backgroundColor: "blue",
+                  height: 50,
+                  width: 150,
+                  fontSize: 20
                 }}
                 onClick={(e) => {
                   window.open(CONFIG.MARKETPLACE_LINK, "_blank");
@@ -268,6 +296,20 @@ function App() {
               >
                 {CONFIG.MARKETPLACE}
               </StyledButton>
+              <StyledButton
+                style={{
+                  margin: "5px",
+                  backgroundColor: "black",
+                  height: 50,
+                  width: 150,
+                  fontSize: 20
+                }}
+                onClick={(e) => {
+                  window.open("https://rarible.com/saams4u", "_blank");
+                }}
+              >
+                Rarible
+              </StyledButton><br></br>
             </span>
             <s.SpacerSmall />
             {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
@@ -292,14 +334,14 @@ function App() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "}
-                  {CONFIG.NETWORK.SYMBOL}.
+                  {/* 1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "}
+                  {CONFIG.NETWORK.SYMBOL}. */}
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  Excluding gas fees.
+                  {/* Excluding gas fees. */}
                 </s.TextDescription>
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
@@ -311,10 +353,10 @@ function App() {
                         color: "var(--accent-text)",
                       }}
                     >
-                      Connect to the {CONFIG.NETWORK.NAME} network
+                      {/* Connect to the {CONFIG.NETWORK.NAME} network */}
                     </s.TextDescription>
                     <s.SpacerSmall />
-                    <StyledButton
+                    {/* <StyledButton
                       onClick={(e) => {
                         e.preventDefault();
                         dispatch(connect());
@@ -322,7 +364,7 @@ function App() {
                       }}
                     >
                       CONNECT
-                    </StyledButton>
+                    </StyledButton> */}
                     {blockchain.errorMsg !== "" ? (
                       <>
                         <s.SpacerSmall />
@@ -408,7 +450,7 @@ function App() {
           </s.Container>
         </ResponsiveWrapper>
         <s.SpacerMedium />
-        <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
+        {/* <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
           <s.TextDescription
             style={{
               textAlign: "center",
@@ -430,7 +472,7 @@ function App() {
             successfully mint your NFT. We recommend that you don't lower the
             gas limit.
           </s.TextDescription>
-        </s.Container>
+        </s.Container> */}
       </s.Container>
     </s.Screen>
   );
