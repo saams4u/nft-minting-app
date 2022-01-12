@@ -199,7 +199,7 @@ function App() {
       <s.Container
         flex={1}
         ai={"center"}
-        style={{ padding: 24 }}
+        style={{ padding: 24, objectFit: "cover" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/gf-featured.jpg" : null}
       >
         <a href={CONFIG.MARKETPLACE_LINK}>
