@@ -5,7 +5,9 @@ import { connect } from "./redux/blockchain/blockchainActions";
 import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
 import styled from "styled-components";
-import { TwitterShareButton, TwitterIcon } from "react-share";
+import { TwitterShareButton, TwitterIcon, 
+         FacebookShareButton, FacebookIcon, 
+         LinkedinShareButton, LinkedinIcon } from "react-share";
 
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
@@ -322,8 +324,19 @@ function App() {
                   className="Demo__some-network__share-button">
                   <TwitterIcon
                     size={64}
-                    round={false} />
+                    round={true} />
               </TwitterShareButton>
+              <s.TextTitle style={{ fontSize: 12 }}>
+                Share on Facebook:
+              </s.TextTitle>
+              <FacebookShareButton 
+                  url="https://www.guildfighters.com" 
+                  title="Check out the Guild Fighters NFT collection!"
+                  className="Demo__some-network__share-button">
+                  <FacebookIcon
+                    size={64}
+                    round={true} />
+              </FacebookShareButton>
             </span>
             <s.SpacerSmall />
             {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
