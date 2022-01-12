@@ -7,7 +7,8 @@ import * as s from "./styles/globalStyles";
 import styled from "styled-components";
 import { TwitterShareButton, TwitterIcon, 
          FacebookShareButton, FacebookIcon, 
-         LinkedinShareButton, LinkedinIcon } from "react-share";
+         LinkedinShareButton, LinkedinIcon,
+         RedditShareButton, RedditIcon } from "react-share";
 
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
@@ -319,7 +320,6 @@ function App() {
                 Share on Twitter:
               </s.TextTitle>
               <TwitterShareButton 
-                  style={{ display: "flex", justifyContent: 'flex-end'}}
                   url="https://www.guildfighters.com" 
                   title="Check out the Guild Fighters NFT collection!"
                   className="share-button">
@@ -331,7 +331,6 @@ function App() {
                 Share on Facebook:
               </s.TextTitle>
               <FacebookShareButton 
-                  style={{ display: "flex", justifyContent: 'flex-end'}}
                   url="https://www.guildfighters.com" 
                   title="Check out the Guild Fighters NFT collection!"
                   className="share-button">
@@ -343,7 +342,6 @@ function App() {
                 Share on LinkedIn:
               </s.TextTitle>
               <LinkedinShareButton 
-                  style={{ display: "flex", justifyContent: 'flex-end'}}
                   url="https://www.guildfighters.com" 
                   title="Check out the Guild Fighters NFT collection!"
                   className="share-button">
@@ -351,6 +349,17 @@ function App() {
                     size={64}
                     round={true} />
               </LinkedinShareButton>
+              <s.TextTitle style={{ fontSize: 12 }}>
+                Share on Reddit:
+              </s.TextTitle>
+              <RedditShareButton 
+                  url="https://www.guildfighters.com" 
+                  title="Check out the Guild Fighters NFT collection!"
+                  className="share-button">
+                  <RedditIcon
+                    size={64}
+                    round={true} />
+              </RedditShareButton>
             </span>
             <s.SpacerSmall />
             {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
