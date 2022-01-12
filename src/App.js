@@ -313,10 +313,13 @@ function App() {
               >
                 Rarible
               </StyledButton><br></br>
-              <TwitterShareButton url="https://www.guildfighters.com" title="Guild Fighters">
-                  <button className="btn btn-circle">
-                      <i className="fab fa-twitter"> </i>
-                  </button>
+              <TwitterShareButton 
+                  url="https://www.guildfighters.com" 
+                  title="Guild Fighters"
+                  className="Demo__some-network__share-button">
+                  <TwitterIcon
+                    size={32}
+                    round />
               </TwitterShareButton>
             </span>
             <s.SpacerSmall />
