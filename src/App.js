@@ -208,9 +208,9 @@ function App() {
         style={{ padding: 24, objectFit: "cover" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/gf-featured.jpg" : null}
       >
-        <a href={CONFIG.MARKETPLACE_LINK}>
+        {/* <a href={CONFIG.MARKETPLACE_LINK}>
           <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
-        </a>
+        </a> */}
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
@@ -237,7 +237,8 @@ function App() {
                 fontWeight: "bold"  
               }}
             >
-              Welcome to Guild Fighters!
+              <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
+              {/* Welcome to Guild Fighters! */}
             </s.TextDescription><br></br>
             <s.TextDescription
               style={{
