@@ -248,7 +248,7 @@ function App() {
               }}      
             >
               <p>This is a medieval fantasy-based NFT collection that I developed in my single-unit apartment in Columbia, MD. I put together the entire base and trait layers, generated the unique digital collectibles using a Python script, and continue to experiment with new ideas to automate the process.</p><br></br>
-              <p>Feel free to check the product roadmap. You can also browse these items on Opensea and Rarible! For Opensea, the goal is to produce 10,000 listed items for sale based on attribute rarity (weapon, guild, etc.). On Rarible, the items are listed for sale in an unlimited auction and are open for bids.</p>
+              <p>Feel free to check the product roadmap. You can also browse these items on Opensea and Rarible! For Opensea, the goal is to produce 10,000 listed items for sale based on attribute rarity (weapon, guild, etc). On Rarible, the items are listed for sale in an unlimited auction and are open for bids.</p>
             </s.TextDescription><br></br><br></br>
             <s.TextTitle
               style={{
