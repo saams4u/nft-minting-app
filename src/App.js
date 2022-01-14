@@ -206,7 +206,7 @@ function App() {
         flex={1}
         ai={"center"}
         style={{ padding: 24, objectFit: "cover" }}
-        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.jpg" : null}
+        image={CONFIG.SHOW_BACKGROUND ? "/images/bg.jpg" : null}
       >
         {/* <a href={CONFIG.MARKETPLACE_LINK}>
           <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
