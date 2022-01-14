@@ -247,8 +247,8 @@ function App() {
                 color: "var(--accent-text)",
               }}      
             >
-              <p>This is a medieval fantasy-based NFT collection that I developed in my single-unit apartment in Columbia, MD. I put together the entire base and trait layers, generated the unique digital collectibles using a Python script, and continue to experiment with new ideas to automate the process.</p><br></br>
-              <p>Feel free to check the product roadmap. You can also browse these items on Opensea and Rarible! For Opensea, the goal is to produce 10,000 listed items for sale based on attribute rarity (weapon, guild, etc). On Rarible, the items are listed for sale in an unlimited auction and are open for bids.</p>
+              <p>Guild Fighters is a medieval-based NFT collection I created from my apartment in Columbia, Maryland. It began as a personal hobby and evolved into a more serious enterprise. I put together the entire base and trait layers, generated the unique digital collectibles using Python, and continue to experiment with new ideas. I also designed an algorithm that sums and averages the properties of each listed NFT a final value depending on the rarity level of each trait. This final value became the product of the base price multiplied by the average rarity factor of all 7 properties. More specifically, I set the base price to 0.003 ether (~$10 USD) and assigned the common traits a factor of 1.2 and the legendary traits a factor of 2.0. It took a while to tweak but I managed to produce the desired results. Feel free to ping me on social media for any questions, advice, or future collaborations.</p><br></br>
+              <p>And please check out the product roadmap as well. You can also browse these items on Opensea and Rarible! For Opensea, the goal is to produce 10,000 listed items for sale based on attribute rarity (weapon, guild, etc). On Rarible, the items are listed for sale in an unlimited auction and are open for bids.</p>
             </s.TextDescription><br></br><br></br>
             <s.TextTitle
               style={{
