@@ -54,6 +54,12 @@ dist/
 node_modules/
 jspm_packages/
 
+# Config directory
+public/config/
+
+# Manifest json file
+public/manifest.json
+
 # TypeScript v1 declaration files
 
 typings/
