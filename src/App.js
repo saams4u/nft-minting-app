@@ -206,7 +206,7 @@ function App() {
         flex={1}
         ai={"center"}
         style={{ padding: 24, objectFit: "cover" }}
-        image={CONFIG.SHOW_BACKGROUND ? "/config/images/gf-featured.jpg" : null}
+        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.jpg" : null}
       >
         {/* <a href={CONFIG.MARKETPLACE_LINK}>
           <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
@@ -214,7 +214,7 @@ function App() {
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg alt={"example"} src={"/config/images/example.gif"} />
+            <StyledImg alt={"avatars"} src={"/images/avatars.gif"} />
           </s.Container>
           <s.SpacerLarge />
           <s.Container
@@ -237,7 +237,7 @@ function App() {
                 fontWeight: "bold"  
               }}
             >
-              <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
+              <StyledLogo alt={"logo"} src={"/images/logo.png"} />
               {/* Welcome to Guild Fighters! */}
             </s.TextDescription><br></br>
             <s.TextDescription
@@ -498,8 +498,8 @@ function App() {
           <s.SpacerLarge />
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg
-              alt={"example"}
-              src={"/config/images/example.gif"}
+              alt={"avatars"}
+              src={"/images/avatars.gif"}
               style={{ transform: "scaleX(-1)" }}
             />
           </s.Container>
