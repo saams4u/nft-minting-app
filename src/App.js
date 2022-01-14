@@ -206,7 +206,7 @@ function App() {
         flex={1}
         ai={"center"}
         style={{ padding: 24, objectFit: "cover" }}
-        image={CONFIG.SHOW_BACKGROUND ? "/images/bg.jpg" : null}
+        image={"/images/bg.jpg"}
       >
         {/* <a href={CONFIG.MARKETPLACE_LINK}>
           <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
@@ -298,7 +298,7 @@ function App() {
                   fontSize: 18
                 }}
                 onClick={(e) => {
-                  window.open(CONFIG.MARKETPLACE_LINK, "_blank");
+                  window.open("https://opensea.io/collection/guildfighters", "_blank");
                 }}
               >
                 {CONFIG.MARKETPLACE}
