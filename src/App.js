@@ -248,7 +248,7 @@ function App() {
               }}      
             >
               <p>Guild Fighters is a fantasy-based NFT collection I started in my apartment in Columbia, Maryland. It began as a personal hobby and evolved into a more serious enterprise. I put together the entire base and trait layers to generate these unique digital collectibles, which are 512x512 in dimension size. I designed a neat algorithm that sums and averages the properties of each listed NFT a given value based on the rarity category of each trait - this final value becomes the product of the base price and average rarity factor. Lastly, I created a method to ascribe certain statistics (speed, attack, etc.) to each fighter based on the rarity hierarchy. It took quite a while to tweak this via code but I finally managed to produce the desired results.</p><br></br>
-              <p>Check the product roadmap and browse these items on OpenSea and Rarible! For OpenSea, the goal is to list 10,000 randomly generated NFTs for sale with Properties and Statistics included. On Rarible, the items are listed in an unlimited auction and are currently open for bids. Ping me on social media for any questions or for any interest in future collaborations.</p>
+              <p>Check the product roadmap and browse these items on OpenSea and Rarible! For OpenSea, the goal is to list 10,000 randomly generated NFTs for sale with Properties and Statistics included. On Rarible, the items are listed in an unlimited auction and are currently open for bids. Feel free to ping me on social media for any questions or interests in future collaborations.</p>
             </s.TextDescription><br></br><br></br>
             <s.TextTitle
               style={{
