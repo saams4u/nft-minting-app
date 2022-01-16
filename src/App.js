@@ -21,7 +21,7 @@ export const StyledButton = styled.button`
   padding: 10px;
   font-weight: bold;
   color: var(--secondary-text);
-  width: 60px;
+  width: 100px;
   cursor: pointer;
   box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
   -webkit-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
@@ -283,7 +283,7 @@ function App() {
                   margin: "5px",
                   backgroundColor: "green",
                   height: 50,
-                  width: 150,
+                  width: 130,
                   fontSize: 18
                 }}
               >
@@ -294,7 +294,7 @@ function App() {
                   margin: "5px",
                   backgroundColor: "blue",
                   height: 50,
-                  width: 150,
+                  width: 130,
                   fontSize: 18
                 }}
                 onClick={(e) => {
@@ -308,7 +308,7 @@ function App() {
                   margin: "5px",
                   backgroundColor: "black",
                   height: 50,
-                  width: 150,
+                  width: 130,
                   fontSize: 18
                 }}
                 onClick={(e) => {
@@ -322,7 +322,7 @@ function App() {
                   margin: "5px",
                   backgroundColor: "purple",
                   height: 50,
-                  width: 150,
+                  width: 130,
                   fontSize: 18
                 }}
                 onClick={(e) => {
