@@ -316,6 +316,20 @@ function App() {
                 }}
               >
                 Rarible
+              </StyledButton>
+              <StyledButton
+                style={{
+                  margin: "5px",
+                  backgroundColor: "purple",
+                  height: 50,
+                  width: 150,
+                  fontSize: 18
+                }}
+                onClick={(e) => {
+                  window.open("https://discord.gg/5gVvq3B6", "_blank");
+                }}
+              >
+                Discord
               </StyledButton><br></br><br></br><br></br><br></br>
               <s.TextTitle style={{ fontSize: 12 }}>
                 Share on Social Media:
