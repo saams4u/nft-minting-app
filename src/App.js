@@ -283,7 +283,7 @@ function App() {
                   margin: "5px",
                   backgroundColor: "green",
                   height: 50,
-                  width: 120,
+                  width: 100,
                   fontSize: 16
                 }}
               >
@@ -294,7 +294,7 @@ function App() {
                   margin: "5px",
                   backgroundColor: "blue",
                   height: 50,
-                  width: 120,
+                  width: 100,
                   fontSize: 16
                 }}
                 onClick={(e) => {
@@ -308,7 +308,7 @@ function App() {
                   margin: "5px",
                   backgroundColor: "black",
                   height: 50,
-                  width: 120,
+                  width: 100,
                   fontSize: 16
                 }}
                 onClick={(e) => {
@@ -322,7 +322,7 @@ function App() {
                   margin: "5px",
                   backgroundColor: "purple",
                   height: 50,
-                  width: 120,
+                  width: 100,
                   fontSize: 16
                 }}
                 onClick={(e) => {
@@ -336,7 +336,7 @@ function App() {
                   margin: "5px",
                   backgroundColor: "red",
                   height: 50,
-                  width: 120,
+                  width: 100,
                   fontSize: 16
                 }}
                 onClick={(e) => {
