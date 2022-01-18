@@ -284,7 +284,7 @@ function App() {
                   backgroundColor: "green",
                   height: 50,
                   width: 100,
-                  fontSize: 16
+                  fontSize: 14
                 }}
               >
                 Roadmap
@@ -295,7 +295,7 @@ function App() {
                   backgroundColor: "blue",
                   height: 50,
                   width: 100,
-                  fontSize: 16
+                  fontSize: 14
                 }}
                 onClick={(e) => {
                   window.open("https://opensea.io/collection/guildfighters", "_blank");
@@ -309,7 +309,7 @@ function App() {
                   backgroundColor: "black",
                   height: 50,
                   width: 100,
-                  fontSize: 16
+                  fontSize: 14
                 }}
                 onClick={(e) => {
                   window.open("https://rarible.com/saams4u", "_blank");
@@ -323,7 +323,7 @@ function App() {
                   backgroundColor: "purple",
                   height: 50,
                   width: 100,
-                  fontSize: 16
+                  fontSize: 14
                 }}
                 onClick={(e) => {
                   window.open("https://discord.gg/5gVvq3B6", "_blank");
@@ -337,7 +337,7 @@ function App() {
                   backgroundColor: "red",
                   height: 50,
                   width: 100,
-                  fontSize: 16
+                  fontSize: 14
                 }}
                 onClick={(e) => {
                   window.open("https://www.reddit.com/r/GuildFighters/", "_blank");
