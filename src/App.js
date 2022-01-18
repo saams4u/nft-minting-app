@@ -283,8 +283,8 @@ function App() {
                   margin: "5px",
                   backgroundColor: "green",
                   height: 50,
-                  width: 130,
-                  fontSize: 18
+                  width: 120,
+                  fontSize: 16
                 }}
               >
                 Roadmap
@@ -294,8 +294,8 @@ function App() {
                   margin: "5px",
                   backgroundColor: "blue",
                   height: 50,
-                  width: 130,
-                  fontSize: 18
+                  width: 120,
+                  fontSize: 16
                 }}
                 onClick={(e) => {
                   window.open("https://opensea.io/collection/guildfighters", "_blank");
@@ -308,8 +308,8 @@ function App() {
                   margin: "5px",
                   backgroundColor: "black",
                   height: 50,
-                  width: 130,
-                  fontSize: 18
+                  width: 120,
+                  fontSize: 16
                 }}
                 onClick={(e) => {
                   window.open("https://rarible.com/saams4u", "_blank");
@@ -322,15 +322,30 @@ function App() {
                   margin: "5px",
                   backgroundColor: "purple",
                   height: 50,
-                  width: 130,
-                  fontSize: 18
+                  width: 120,
+                  fontSize: 16
                 }}
                 onClick={(e) => {
                   window.open("https://discord.gg/5gVvq3B6", "_blank");
                 }}
               >
                 Discord
-              </StyledButton><br></br><br></br><br></br><br></br>
+              </StyledButton>
+              <StyledButton
+                style={{
+                  margin: "5px",
+                  backgroundColor: "red",
+                  height: 50,
+                  width: 120,
+                  fontSize: 16
+                }}
+                onClick={(e) => {
+                  window.open("https://www.reddit.com/r/GuildFighters/", "_blank");
+                }}
+              >
+                Reddit
+              </StyledButton>              
+              <br></br><br></br><br></br><br></br>
               <s.TextTitle style={{ fontSize: 12 }}>
                 Share on Social Media:
               </s.TextTitle>
