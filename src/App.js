@@ -351,7 +351,7 @@ function App() {
               <br></br>
               <StyledButton
                 style={{
-                  backgroundImage: "url('https://www.dropbox.com/sh/bsf55thusj7nopi/AADLpCVnZIsvKrw2Rmb0Znlya?dl=0&preview=nft_calendar_logo_vector_optimized.svg')",
+                  backgroundImage: "url('https://bit.ly/3qZRmWc')",
                   backgroundPosition: 'center',
                   backgroundSize: '100% 100%',
                   backgroundRepeat: 'no-repeat',
