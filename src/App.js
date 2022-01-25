@@ -357,7 +357,7 @@ function App() {
                   window.open("https://nftcalendar.io/event/guild-fighters/", "_blank");
                 }}
               >
-                NFT Calendar
+                Calendar
               </StyledButton>              
               <br></br><br></br><br></br><br></br>
               <s.TextTitle style={{ fontSize: 12 }}>
@@ -372,7 +372,7 @@ function App() {
                   title="Check out the Guild Fighters NFT collection!"
                   className="share-button">
                   <TwitterIcon
-                    size={64}
+                    size={50}
                     round={true} />
               </TwitterShareButton>&nbsp;&nbsp;&nbsp;&nbsp;
               {/* <s.TextTitle style={{ fontSize: 12 }}>
@@ -383,7 +383,7 @@ function App() {
                   title="Check out the Guild Fighters NFT collection!"
                   className="share-button">
                   <FacebookIcon
-                    size={64}
+                    size={50}
                     round={true} />
               </FacebookShareButton>&nbsp;&nbsp;&nbsp;&nbsp;
               {/* <s.TextTitle style={{ fontSize: 12 }}>
@@ -394,7 +394,7 @@ function App() {
                   title="Check out the Guild Fighters NFT collection!"
                   className="share-button">
                   <LinkedinIcon
-                    size={64}
+                    size={50}
                     round={true} />
               </LinkedinShareButton>&nbsp;&nbsp;&nbsp;&nbsp;
               {/* <s.TextTitle style={{ fontSize: 12 }}>
@@ -405,7 +405,7 @@ function App() {
                   title="Check out the Guild Fighters NFT collection!"
                   className="share-button">
                   <RedditIcon
-                    size={64}
+                    size={50}
                     round={true} />
               </RedditShareButton>
             </span>
