@@ -283,8 +283,8 @@ function App() {
                   margin: "5px",
                   backgroundColor: "green",
                   height: 50,
-                  width: 100,
-                  fontSize: 14
+                  width: 80,
+                  fontSize: 12
                 }}
               >
                 Roadmap
@@ -294,8 +294,8 @@ function App() {
                   margin: "5px",
                   backgroundColor: "blue",
                   height: 50,
-                  width: 100,
-                  fontSize: 14
+                  width: 80,
+                  fontSize: 12
                 }}
                 onClick={(e) => {
                   window.open("https://opensea.io/collection/guildfighters", "_blank");
@@ -308,8 +308,8 @@ function App() {
                   margin: "5px",
                   backgroundColor: "black",
                   height: 50,
-                  width: 100,
-                  fontSize: 14
+                  width: 80,
+                  fontSize: 12
                 }}
                 onClick={(e) => {
                   window.open("https://rarible.com/saams4u", "_blank");
@@ -322,8 +322,8 @@ function App() {
                   margin: "5px",
                   backgroundColor: "purple",
                   height: 50,
-                  width: 100,
-                  fontSize: 14
+                  width: 80,
+                  fontSize: 12
                 }}
                 onClick={(e) => {
                   window.open("https://discord.gg/awhj2VwA", "_blank");
@@ -336,8 +336,8 @@ function App() {
                   margin: "5px",
                   backgroundColor: "red",
                   height: 50,
-                  width: 100,
-                  fontSize: 14
+                  width: 80,
+                  fontSize: 12
                 }}
                 onClick={(e) => {
                   window.open("https://www.reddit.com/r/GuildFighters/", "_blank");
@@ -350,8 +350,8 @@ function App() {
                   margin: "5px",
                   backgroundColor: "grey",
                   height: 50,
-                  width: 100,
-                  fontSize: 14
+                  width: 80,
+                  fontSize: 12
                 }}
                 onClick={(e) => {
                   window.open("https://nftcalendar.io/event/guild-fighters/", "_blank");
