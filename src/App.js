@@ -348,7 +348,7 @@ function App() {
                 style={{
                   backgroundImage: "url('https://pbs.twimg.com/profile_images/1370144254694199306/cG08lUcQ_400x400.jpg')",
                   backgroundPosition: 'center',
-                  backgroundSize: 'cover',
+                  backgroundSize: 'auto auto',
                   backgroundRepeat: 'no-repeat',
                   height: 50,
                   width: 80              
