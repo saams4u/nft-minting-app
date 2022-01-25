@@ -347,7 +347,7 @@ function App() {
               <br></br><br></br><br></br><br></br>
               <StyledButton
                 style={{
-                  backgroundImage: "url(' + https://pbs.twimg.com/profile_images/1370144254694199306/cG08lUcQ_400x400.jpg + ')",
+                  backgroundImage: "url('https://pbs.twimg.com/profile_images/1370144254694199306/cG08lUcQ_400x400.jpg')",
                   backgroundPosition: 'center',
                   backgroundSize: 'cover',
                   backgroundRepeat: 'no-repeat',
