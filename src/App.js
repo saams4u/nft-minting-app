@@ -357,7 +357,7 @@ function App() {
                   window.open("https://nftcalendar.io/event/guild-fighters/", "_blank");
                 }}
               >
-                NFTCalender
+                NFT Calendar
               </StyledButton>              
               <br></br><br></br><br></br><br></br>
               <s.TextTitle style={{ fontSize: 12 }}>
