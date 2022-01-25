@@ -348,7 +348,7 @@ function App() {
               <StyledButton
                 style={{
                   margin: "5px",
-                  backgroundColor: "grey",
+                  backgroundImage: "https://pbs.twimg.com/profile_images/1421931411746050051/vIOzCosv_400x400.jpg",
                   height: 50,
                   width: 80,
                   fontSize: 12
@@ -357,7 +357,6 @@ function App() {
                   window.open("https://nftcalendar.io/event/guild-fighters/", "_blank");
                 }}
               >
-                Calendar
               </StyledButton>              
               <br></br><br></br><br></br><br></br>
               <s.TextTitle style={{ fontSize: 12 }}>
