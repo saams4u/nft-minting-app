@@ -349,8 +349,11 @@ function App() {
               <StyledButton
                 style={{
                   backgroundImage: "url(' + https://pbs.twimg.com/profile_images/1370144254694199306/cG08lUcQ_400x400.jpg + ')",
-                  height: 400,
-                  width: 400                
+                  backgroundPosition: 'center',
+                  backgroundSize: 'cover',
+                  backgroundRepeat: 'no-repeat',
+                  height: 100,
+                  width: 100,              
                 }}
                 onClick={(e) => {
                   window.open("https://nftcalendar.io/event/guild-fighters/", "_blank");
