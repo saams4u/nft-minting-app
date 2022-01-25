@@ -351,7 +351,7 @@ function App() {
               <br></br>
               <StyledButton
                 style={{
-                  backgroundImage: "url('https://pbs.twimg.com/profile_images/1370144254694199306/cG08lUcQ_400x400.jpg')",
+                  backgroundImage: "url('https://www.dropbox.com/sh/bsf55thusj7nopi/AADLpCVnZIsvKrw2Rmb0Znlya?dl=0&preview=nft_calendar_logo_vector_optimized.svg')",
                   backgroundPosition: 'center',
                   backgroundSize: '100% 100%',
                   backgroundRepeat: 'no-repeat',
