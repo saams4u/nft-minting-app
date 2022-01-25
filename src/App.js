@@ -348,7 +348,7 @@ function App() {
               <StyledButton
                 style={{
                   margin: "5px",
-                  backgroundImage: "https://pbs.twimg.com/profile_images/1421931411746050051/vIOzCosv_400x400.jpg",
+                  backgroundImage: "https://pbs.twimg.com/profile_images/1370144254694199306/cG08lUcQ_400x400.jpg",
                   height: 50,
                   width: 80,
                   fontSize: 12
