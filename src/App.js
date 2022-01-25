@@ -356,7 +356,7 @@ function App() {
                   backgroundSize: 'cover',
                   backgroundRepeat: 'no-repeat',
                   height: 110,
-                  width: 110              
+                  width: 140              
                 }}
                 onClick={(e) => {
                   window.open("https://nftcalendar.io/event/guild-fighters/", "_blank");
