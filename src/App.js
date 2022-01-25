@@ -326,7 +326,7 @@ function App() {
                   fontSize: 14
                 }}
                 onClick={(e) => {
-                  window.open("https://discord.gg/5gVvq3B6", "_blank");
+                  window.open("https://discord.gg/awhj2VwA", "_blank");
                 }}
               >
                 Discord
@@ -344,6 +344,20 @@ function App() {
                 }}
               >
                 Reddit
+              </StyledButton>  
+              <StyledButton
+                style={{
+                  margin: "5px",
+                  backgroundColor: "grey",
+                  height: 50,
+                  width: 100,
+                  fontSize: 14
+                }}
+                onClick={(e) => {
+                  window.open("https://nftcalendar.io/event/guild-fighters/", "_blank");
+                }}
+              >
+                NFTCalender
               </StyledButton>              
               <br></br><br></br><br></br><br></br>
               <s.TextTitle style={{ fontSize: 12 }}>
