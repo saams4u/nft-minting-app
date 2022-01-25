@@ -345,7 +345,7 @@ function App() {
                 Reddit
               </StyledButton>  
               <br></br><br></br><br></br><br></br>
-              <s.TextTitle style={{ fontSize: 12 }}>
+              <s.TextTitle style={{ fontSize: 14 }}>
                 As seen on NFT Calendar
               </s.TextTitle>
               <br></br>
@@ -353,7 +353,7 @@ function App() {
                 style={{
                   backgroundImage: "url('https://pbs.twimg.com/profile_images/1370144254694199306/cG08lUcQ_400x400.jpg')",
                   backgroundPosition: 'center',
-                  backgroundSize: 'cover',
+                  backgroundSize: '80% 80%',
                   backgroundRepeat: 'no-repeat',
                   height: 120,
                   width: 200              
