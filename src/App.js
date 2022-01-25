@@ -353,10 +353,10 @@ function App() {
                 style={{
                   backgroundImage: "url('https://pbs.twimg.com/profile_images/1370144254694199306/cG08lUcQ_400x400.jpg')",
                   backgroundPosition: 'center',
-                  backgroundSize: '80% 80%',
+                  backgroundSize: '95% 95%',
                   backgroundRepeat: 'no-repeat',
                   height: 80,
-                  width: 140              
+                  width: 140           
                 }}
                 onClick={(e) => {
                   window.open("https://nftcalendar.io/event/guild-fighters/", "_blank");
