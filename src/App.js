@@ -345,6 +345,10 @@ function App() {
                 Reddit
               </StyledButton>  
               <br></br><br></br><br></br><br></br>
+              <s.TextTitle style={{ fontSize: 12 }}>
+                As seen on NFT Calendar
+              </s.TextTitle>
+              <br></br><br></br><br></br><br></br>
               <StyledButton
                 style={{
                   backgroundImage: "url('https://pbs.twimg.com/profile_images/1370144254694199306/cG08lUcQ_400x400.jpg')",
