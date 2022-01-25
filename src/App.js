@@ -345,13 +345,12 @@ function App() {
               >
                 Reddit
               </StyledButton>  
+              <br></br><br></br><br></br><br></br>
               <StyledButton
                 style={{
-                  margin: "5px",
                   backgroundImage: "url(' + https://pbs.twimg.com/profile_images/1370144254694199306/cG08lUcQ_400x400.jpg + ')",
-                  height: 50,
-                  width: 80,
-                  fontSize: 12
+                  height: 400,
+                  width: 400                
                 }}
                 onClick={(e) => {
                   window.open("https://nftcalendar.io/event/guild-fighters/", "_blank");
