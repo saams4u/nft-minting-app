@@ -351,7 +351,7 @@ function App() {
               <br></br>
               <StyledButton
                 style={{
-                  backgroundImage: `url(require("/images/nftcalendar.png"))`,
+                  backgroundImage: "url(/images/nftcalendar.png)",
                   backgroundPosition: 'center',
                   backgroundSize: '100% 100%',
                   backgroundRepeat: 'no-repeat',
